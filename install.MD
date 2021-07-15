@@ -1,6 +1,7 @@
-# Installation react-native with appcenter
+# Installation react-native with appcenter (MyReactNativeApp)
 
 ## 1. command to create react-native
+
 npx react-native init MyReactNativeApp
 
   Run instructions for Android:
@@ -16,4 +17,16 @@ npx react-native init MyReactNativeApp
   Run instructions for macOS:
     • See https://aka.ms/ReactNativeGuideMacOS for the latest up-to-date instructions.
     
-  
+
+## 2. add git initialization
+
+git init
+git add .
+git commit -m "first project commit"
+
+## 3. go to github.com
+
+### 3.1 create new repository
+
+git remote add origin https://github.com/nateesoft/MyReactNativeApp.git
+git push -u origin main
